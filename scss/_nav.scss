@@ -1,0 +1,147 @@
+.topbg {
+	width:100%;
+	background:#000;
+	font-size:14px;
+	padding:5px 0;
+	a {
+		color:#fff;
+	}
+}
+
+.phone-svg {
+	float:right;
+	svg {
+		width: 16px;
+height: 12px;
+path {
+	fill:#fff;
+}
+	}
+}
+.mail-svg {
+	svg {
+		width: 17px;
+height: 11px;
+path {
+	fill:#fff;
+}
+	}
+	
+}
+
+#logo {
+
+width: 80px;
+display: block;
+position: absolute;
+left: 15px;
+top: 40px;
+
+@media screen and (min-width: 40em) {
+//width: 135px;
+//top: 40px;
+}
+
+@media screen and (min-width: 64em) {
+	width: 135px;
+display: block;	
+position:relative;
+top:0;
+}
+
+}
+
+.top-bar ul {background:#fff;
+
+&.desktop-nav {
+	display:none;
+	@media screen and (min-width: 64em) {
+	
+display: block;	
+
+}
+}
+
+}
+
+
+.top-bar {
+	padding-left:0;
+	padding-right:0;
+	background:#fff;
+	min-height: 50px;
+	.top-bar-left {
+		
+    margin-top: 10px;
+        margin-left: 15px;
+li {
+	a {
+		padding:.7rem;
+		color:#4e4e4e;
+		text-transform: uppercase;
+		font-weight: bold
+
+
+	}
+}
+
+	}
+	.top-bar-right {
+		
+    margin-top: 10px;
+
+	}
+}
+
+.contact-us {
+
+	@include border-radius(100px);
+	width:150px
+}
+
+
+.dropdown.menu {
+	li {
+		//display: block;
+	}
+}
+
+.menu-icon.dark {
+  top: 49px;
+right: 15px;
+position: absolute;
+z-index:999;
+@media screen and (min-width: 40em) {
+	
+display:block;
+
+}
+}
+
+//#responsive-menu {
+//	margin-top:40px;
+//}
+
+.vertical.menu.mobile-nav {
+	margin-top: 40px;
+margin-bottom: 20px;
+.contact-us {
+	color: #fff;
+}
+@media screen and (min-width: 40em) {
+	
+//margin-top: 60px;
+
+}
+@media screen and (min-width: 64em) {
+	
+display: none;	
+
+}
+.contact-us {
+	margin-top:10px;
+}
+.vertical.menu {
+	margin-top: 40px;
+}
+}

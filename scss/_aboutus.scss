@@ -1,0 +1,144 @@
+.about-us {
+	padding: 30px 0;
+	h1 {
+		color:#fff;
+
+	}
+}
+
+.about-text.thetitle {
+	h2 {
+		font-size: 30px;
+
+		text-align: left;
+		text-transform: capitalize;
+	}
+	p {
+		font-style: normal;
+	}
+}
+
+
+
+.about-text.thetitle.energy {
+	img {
+		width: 320px;
+		margin:0 auto;
+
+		
+	}
+
+	p {
+		font-weight:bold;
+	}
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li { 
+    padding-left: 15px; 
+    background: url('../img/bullet.png') no-repeat 1px 10px transparent;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+
+	
+}
+
+
+
+
+
+
+.about-wrap .energy-img {
+
+
+			width: 360px ;
+		margin:0 auto;
+float:none;
+display:block;
+
+	@media screen and (min-width: 64em) {
+	
+float:none;
+
+}
+
+
+		}
+
+
+
+.telecom-wrap {
+	margin:60px auto;
+.subheading {
+font-weight:bold;
+margin-bottom:30px;
+}
+}
+
+#example-tabs {
+
+	.tabs-title > a {
+   // background: $blue;
+    color: $blue;
+    font-size: $nfont;
+    font-weight: bold;
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+    background: $blue;
+    color: #fff;
+    font-size: $nfont;
+    font-weight: bold;
+}
+
+}
+
+
+.tabs.vertical {
+	background:#e6e6e6;
+	border-left:none;
+	border-right:none;
+	.tabs-title > a {
+    color: #000;
+
+}
+
+
+}
+
+#example-vert-tabs{
+
+	.tabs-title.is-active > a, .tabs-title.is-active > a:hover {
+	color:$blue;
+}
+
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+    background: #fff;
+}
+
+.tabs-content.vertical {
+	border:none;
+
+}
+
+.tabs-content {
+	.button {
+	width:250px;
+	display:block;
+	margin:20px auto;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	padding:15px;
+}
+}
+
+.button {
+	@include border-radius(100px);
+}

@@ -1,0 +1,16 @@
+body {
+	font-family:$bfont;
+}
+
+h1, h2 {
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:$lfont;
+	margin-top: 15px;
+	text-align:center;
+	font-family:$bfont;
+}
+
+p {
+	font-weight:300;
+}
